@@ -1,0 +1,23 @@
+{
+  "localdb": {
+    "host": "localhost",
+    "user": "local_db_user",
+    "pass": "local_db_pass"
+  },
+  "hosts": [
+    {
+      "name": "remote-host.com",
+      "localName": "remote-host.dev",
+      "protocol": "https://",
+      "enabled": false,
+      "writeToFile": false,
+      "db": {
+        "host": "db.remote-host.com",
+        "port": 3306,
+        "name": "db_name",
+        "user": "db_username",
+        "pass": "db_password"
+      }
+    }
+  ]
+}
